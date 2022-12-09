@@ -30,7 +30,7 @@ body {
   font-weight: 300;
   color: #444;
   line-height: 1.9;
-  background-color: #f3f3f3;
+  background-color: #ced4da;
 }
 
 /* GENERAL ELEMENTS */
@@ -107,6 +107,7 @@ button:focus {
 
 img {
   transition: filter 0.5s;
+  border-radius: 20px;
 }
 
 .lazy-img {
@@ -142,7 +143,6 @@ img {
   align-items: center;
   list-style: none;
 }
-
 .nav__item {
   margin-left: 4rem;
 }
